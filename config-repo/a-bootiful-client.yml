@@ -1,0 +1,3 @@
+test.message: test_message
+
+management.endpoints.web.exposure.include: "*"
