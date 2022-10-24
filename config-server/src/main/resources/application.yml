@@ -1,5 +1,6 @@
 server.port: 8888
 
 spring:
+  security.user.password: test_password
   profiles.active: native
   cloud.config.server.native.searchLocations: file:${user.home}/Documents/career/spring-centralized-config/config-repo
